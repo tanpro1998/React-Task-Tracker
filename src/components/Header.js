@@ -12,7 +12,7 @@ const Header = ({ title, onAdd, showAdd }) => {
           color={showAdd ? "red" : "green"}
           text={showAdd ? "Close" : "Add"}
           onClick={onAdd}
-        />
+        />     
       )}
     </div>
   );
